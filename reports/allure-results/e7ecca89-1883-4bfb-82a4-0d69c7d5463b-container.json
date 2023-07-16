@@ -1,0 +1,1 @@
+{"uuid":"e7ecca89-1883-4bfb-82a4-0d69c7d5463b","name":"Esquema do Cenário: Validar o preenhcimento do payload para o PATCH /users/{id}","children":["1235ceb8-d84c-4414-b9da-54608aedebb1"],"befores":[],"afters":[],"start":1689540002363,"stop":1689540002897}
