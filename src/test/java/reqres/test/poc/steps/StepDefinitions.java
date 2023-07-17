@@ -75,6 +75,12 @@ public class StepDefinitions {
         Assert.assertEquals(response.getStatusCode(), statusCode);
     }
 
+    @Entao("o ID deve ser o inserido no path")
+    public void deveRetornarIDInseridoNoPath() {
+        int id = response.jsonPath().getInt("data.id");
+        Assert.assertEquals(id, 1, "O valor do campo 'id' não é igual a 1");
+    }
+
     @E("deve retornar o contrato {string}")
     public void deveRetornarOContratoEsperado(String schema) {
         response.then().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schemas/" + schema));
