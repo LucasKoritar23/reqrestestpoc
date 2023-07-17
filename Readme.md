@@ -22,7 +22,7 @@ objetivo é mostrar como realizar testes de API de forma automatizada, integrand
 
 Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente de desenvolvimento:
 
-- Java JDK 8 ou superior
+- Java JDK 17 ou superior
 - Maven
 - IDE (IntelliJ)
 
