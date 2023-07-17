@@ -15,7 +15,7 @@ objetivo é mostrar como realizar testes de API de forma automatizada, integrand
 - RestAssured: Framework Java para testar e validar APIs RESTful.
 - Allure: Ferramenta para geração de relatórios interativos de testes.
 - TestNG: Framework de testes utilizado para executar os testes de forma estruturada.
-- Cucumber: Ferramenta de escrita de cenários de teste em linguagem natural.
+- Cucumber: Ferramenta de escrita de cenários de teste em linguagem natural (Gherkin).
 - Faker: Biblioteca Java para geração de dados de teste aleatórios.
 
 ## Pré-requisitos
